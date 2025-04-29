@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E4AF0B</color>         <!-- Dark Gold -->
+    <color name="colorPrimaryDark">#B8860B</color>     <!-- Darker Gold -->
+    <color name="colorAccent">#E4AF0B</color>          <!-- Matching accent dark gold -->
+    <color name="textColor">#FFFFFF</color>            <!-- White text on dark background -->
+    <color name="cardBckGround">#1C1C1E</color>        <!-- Dark background for cards -->
+    <color name="strockColor">#3A3A3C</color>          <!-- Soft dark border stroke -->
+    <color name="indigo">#7D7AFF</color>               <!-- Soft indigo for dark mode -->
+</resources>

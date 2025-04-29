@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D4AF37</color>        <!-- Gold -->
+    <color name="colorPrimaryDark">#B8860B</color>    <!-- Darker Gold -->
+    <color name="colorAccent">#D4AF37</color>        <!-- Matching Gold Accent -->
+    <color name="textColor">#000000</color>          <!-- Rich Black Text -->
+    <color name="cardBckGround">#FFFFFF</color>      <!-- Clean White Cards -->
+    <color name="strockColor">#D1D1D6</color>        <!-- iOS Soft Gray -->
+    <color name="indigo">#5856D6</color>             <!-- Optional iOS Indigo -->
+</resources>

@@ -1,0 +1,25 @@
+buildscript {
+    ext.kotlin_version = '1.8.0'  // Ensure this is compatible with your Kotlin version
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Update AGP version to 8.2.0
+        classpath 'com.android.tools.build:gradle:8.2.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        def nav_version = "2.7.7"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
